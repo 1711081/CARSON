@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="6`JDhgi|f_me~qRz$d5V" x="0" y="0"/><block type="device_forever" id="e5f|#_AWZ;Xdj6`d27#7" x="219" y="42"/><block type="basic_show_icon" id=";@Sx+l2Bq7ZO/,YVeiQ~" disabled="true" x="-35" y="329"><field name="i">IconNames.Heart</field></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="6`JDhgi|f_me~qRz$d5V" x="18" y="31"><statement name="HANDLER"><block type="device_show_leds" id="1uH-~6THaNBL}9GoQnya"><field name="LEDS">`
+        . # # # . 
+        # . . . . 
+        # . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="fvltUL{$Ta}#x}+Y(y(n"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        # . . . # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="M+!u9nu?!9:}ID_%(M^e"><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # # # # . 
+        # # . . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="Whuu2hzGifDuThPCc4OM"><field name="LEDS">`
+        . # # # . 
+        # . . . . 
+        . # # # . 
+        . . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="A+eEDyw4lX2RwgEcEPs2"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="k3^UH^8O?fHa:`XexgA7"><field name="LEDS">`
+        # . . . # 
+        # # . . # 
+        # . # . # 
+        # . . # # 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="e5f|#_AWZ;Xdj6`d27#7" x="280" y="111"><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="eNKg5CUbr6]_)31q_yIi"><field name="this">soundExpression.happy</field><next><block type="device_print_message" id=")oz.3g#7p0QFTG_pR@f2"><value name="text"><shadow type="text" id="EoTY!Y-?I#Q;A)ro8pte"><field name="TEXT">Hello!</field></shadow></value><next><block type="device_print_message" id="Z+bv@FV)0`O3hNgWOA]?"><value name="text"><shadow type="text" id="k)f;EZi7YkO`|=9zHw!9"><field name="TEXT">CARSON</field></shadow></value></block></next></block></next></block></statement></block><block type="basic_show_icon" id=";@Sx+l2Bq7ZO/,YVeiQ~" disabled="true" x="479" y="112"><field name="i">IconNames.Heart</field></block><block type="device_button_event" id="0Y(396Mc)EsG:i4II62f" x="540" y="344"><field name="NAME">Button.A</field></block></xml>
